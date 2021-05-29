@@ -26,7 +26,7 @@ function LoadLibrary(a)
 	return loadstring(game:HttpGet("https://pastebin.com/raw/UfzKgS6T", true))()
 end
 
-local c = game.Players.LocalPlayer.Character:FindFirstChild("Moon Lord").Handle
+local c = game.Players.LocalPlayer.Character:FindFirstChild("MARTILLO").Handle
 c.AccessoryWeld:Destroy()
 c.Anchored = false
 local cRot = 0.1
